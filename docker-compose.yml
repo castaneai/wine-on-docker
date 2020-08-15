@@ -1,0 +1,6 @@
+version: "3.6"
+services:
+  wine:
+    build: ubuntu/
+    ports: 
+      - 5900:5900
